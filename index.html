@@ -8,7 +8,36 @@
     <title>Form Validation</title>
   </head>
   <body>
-    
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Register</h2>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="Password">Password</label>
+          <input type="password" id="Password" placeholder="Enter Password" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="text"
+            id="confirm-password"
+            placeholder="Enter password again"
+          />
+          <small>Error Message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
     <!-- !JS -->
     <script src="./script.js"></script>
   </body>
